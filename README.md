@@ -8,4 +8,5 @@
   * [单一职能原则](docs/single_responsibility.md)
   * [接口隔离原则](docs/Interface_Segregation.md)
   * [迪米特原则](docs/law_of_demeter.md)
+  * [里氏替换原则](docs/liskov_substitution.md)
   
