@@ -7,4 +7,5 @@
   * [依赖倒置原则](docs/dependency_inversion.md)
   * [单一职能原则](docs/single_responsibility.md)
   * [接口隔离原则](docs/Interface_Segregation.md)
+  * [迪米特原则](docs/law_of_demeter.md)
   
