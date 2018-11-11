@@ -5,3 +5,5 @@
 * 七大原则
   * [开闭原则](https://www.jianshu.com/p/8e7f60e5fb91)
   * [依赖倒置原则](docs/dependency_inversion.md)
+  * [单一职能原则](docs/single_responsibility.md)
+  
