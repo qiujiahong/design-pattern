@@ -27,3 +27,6 @@
 * 重写,为每一个功能做一个接口，在实现类的时候可以随意组合实现，没有空实现；
 
 ![](./assets/2018-11-11-20-37-00.png)
+
+
+### [详细代码](https://github.com/qiujiahong/design-pattern/tree/master/src/main/java/com/nick/design/principle/interfacesegregation)
