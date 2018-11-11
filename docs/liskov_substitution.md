@@ -25,3 +25,59 @@
 
 * 约束集成泛滥，开闭原则体现；
 * 加强程序的健壮性，同时变更时也可以做到非常好的兼容性，提高程序的可维护性、扩展性。降低需求变更的风险。
+
+
+### 代码
+
+* 正方形即成长方形，但是执行效果却不一样
+
+![](./assets/2018-11-11-21-46-11.png)
+
+
+* 添加一个Quadrangle 类，正方形、长方形，都继承四边形类，这个时候resize不能直接使用Quadrangle类作为传入参数，因为该类不具备setWidth方法，从而避免违背里氏替换原则代码；
+
+![](./assets/2018-11-11-22-04-50.png)
+
+
+
+* 输入(函数参数)子类比父类宽松；
+
+```java
+public class Base {
+    public void method(HashMap map){
+        System.out.println("父类被执行");
+    }
+}
+```
+
+```java
+public class Child extends Base {
+    //重写
+//    @Override
+//    public void method(HashMap map) {
+//        System.out.println("子类HashMap被执行");
+////        super.method(map);
+//    }
+    //重载  子类的需要更宽松'
+    public void method(Map map) {
+        System.out.println("子类map被执行");
+//        super.method(map);
+    }
+}
+```
+
+```java
+
+public class Test {
+    public static void main(String[] args) {
+        Child child = new Child();
+        HashMap hashMap = new HashMap();
+        child.method(hashMap);
+    }
+}
+```
+
+* 输出(函数返回值)子类比父类更严格，这个一般idea会报错；
+
+
+### [完整代码]()
