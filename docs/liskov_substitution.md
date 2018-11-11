@@ -80,4 +80,4 @@ public class Test {
 * 输出(函数返回值)子类比父类更严格，这个一般idea会报错；
 
 
-### [完整代码]()
+### [完整代码](https://github.com/qiujiahong/design-pattern/tree/master/src/main/java/com/nick/design/principle/liskovsubstitution)
