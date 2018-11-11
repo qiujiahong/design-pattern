@@ -77,3 +77,9 @@ public class TeamLeader {
 ```
 
 ![](./assets/2018-11-11-21-09-11.png)
+
+
+
+### [详细代码](https://github.com/qiujiahong/design-pattern/tree/master/src/main/java/com/nick/design/principle/demeter)
+
+
