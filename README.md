@@ -9,4 +9,4 @@
   * [接口隔离原则](docs/Interface_Segregation.md)
   * [迪米特原则](docs/law_of_demeter.md)
   * [里氏替换原则](docs/liskov_substitution.md)
-  
+  * [合成复用原则](docs/multiplexing.md)
