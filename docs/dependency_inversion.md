@@ -28,7 +28,7 @@ public class Test {
 }
 ```
 
-* 改进后
+* 改进1
 
 ![](./assets/2018-11-11-11-12-50.png)
 
@@ -43,4 +43,32 @@ public class Test {
 ```
 
 如上所示，高层模块Test类，在改进后的代码中不再依赖于Nick类，如果要添加新的课程只需要心添加一个集成ICourse的类即可，完全不修改之前的代码。
+
+* 改进2，使用构造函数注入
+
+![](./assets/2018-11-11-16-40-36.png)
+
+```java
+   public static void main(String[] args) {
+        Nick nick =  new Nick(new JavaCourse());
+        nick.studyCourse();
+    }
+```
+
+* 改进3，添加注入方法
+
+![](./assets/2018-11-11-16-46-02.png)  
+
+```java
+   public static void main(String[] args) {
+        Nick nick = new Nick();
+        nick.setiCourse(new JavaCourse());
+        nick.studyCourse();
+
+        nick.setiCourse(new FECourse());
+        nick.studyCourse();
+    }
+```
+
+
 

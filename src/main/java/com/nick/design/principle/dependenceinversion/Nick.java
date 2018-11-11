@@ -4,9 +4,15 @@ public class Nick {
 
     private ICourse iCourse;
 
-    public Nick(ICourse iCourse) {
+    public void setiCourse(ICourse iCourse) {
         this.iCourse = iCourse;
     }
+//  V3
+//    public Nick(ICourse iCourse) {
+//        this.iCourse = iCourse;
+//    }
+
+
 
     public void studyCourse() {
         iCourse.studyCourse();
