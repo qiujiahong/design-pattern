@@ -1,5 +1,9 @@
 package com.nick.design.principle.openclose;
 
+import lombok.Data;
+import lombok.Getter;
+
+@Getter
 public class JavaCourse implements ICourse {
 
     private Integer id;
@@ -12,15 +16,4 @@ public class JavaCourse implements ICourse {
         this.price = price;
     }
 
-    public Integer getId() {
-        return this.id;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public Double getPrice() {
-        return this.price;
-    }
 }
