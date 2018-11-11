@@ -72,3 +72,4 @@ public class Test {
 
 
 
+### [详细代码](https://github.com/qiujiahong/design-pattern/tree/master/src/main/java/com/nick/design/principle/dependenceinversion)
