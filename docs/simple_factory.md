@@ -20,3 +20,48 @@
   * 无法基于集成的等级结构；
 
   
+  ### 代码
+
+* 使用一个方法根据传入参数新建对象；
+
+  ![](./assets/2018-11-12-22-10-17.png)
+
+```java
+public class VideoFactory {
+    public Video getVideo(String type){
+        if("java".equalsIgnoreCase(type)){
+            return new JavaVideo();
+        }else if("python".equalsIgnoreCase(type)){
+            return new PythonVideo();
+        }
+        return null;
+    }
+}
+```
+
+* 使用反射演进
+
+```java
+    public Video getVideo(Class c){
+        Video video = null;
+        try {
+            video = (Video) Class.forName(c.getName()).newInstance();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return  video;
+    }
+```
+
+```java
+        VideoFactory videoFactory = new VideoFactory();
+        Video video = videoFactory.getVideo(JavaVideo.class);
+        if(video == null){
+            return;
+        }
+        video.produce();
+```
