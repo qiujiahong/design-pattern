@@ -10,3 +10,5 @@
   * [迪米特原则](docs/law_of_demeter.md)
   * [里氏替换原则](docs/liskov_substitution.md)
   * [合成/聚合复用原则](docs/multiplexing.md)
+* 设计模式
+  * [创建型-简单工厂](docs/simple_factory.md)
