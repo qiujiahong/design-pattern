@@ -13,7 +13,7 @@
 * 创建者模式 5
   * [额外-创建型-简单工厂](docs/simple_factory.md)
   * [工厂方法模式](docs/factory_method.md)
-  * [抽象工程模式]
+  * [抽象工程模式](docs/abs_factory.md)
   * [单例模式]
   * 建造者模式
   * 原型模式

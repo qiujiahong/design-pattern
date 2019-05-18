@@ -4,6 +4,8 @@
 
 定义一个创建对象的接口，但让实现这个接口的类来决定实例化哪一个类，工厂方法让类的实例化推迟到子类中去执行。
 
+工厂方法模式针对产品等级结构
+
 
 ## 适用场景
 
@@ -34,4 +36,3 @@
 
 ## [详细代码](../src/main/java/com/nick/design/pattern/creational/factorymethod)
 
-1
