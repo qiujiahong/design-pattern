@@ -32,4 +32,4 @@
 * 如果需要加一个算法视频，则添加一个实体类，再添加一个工厂类即可。
 
 
-## [详细代码]()
+## [详细代码](../src/main/java/com/nick/design/pattern/creational/factorymethod)
