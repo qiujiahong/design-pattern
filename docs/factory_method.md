@@ -33,3 +33,5 @@
 
 
 ## [详细代码](../src/main/java/com/nick/design/pattern/creational/factorymethod)
+
+1
