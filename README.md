@@ -12,7 +12,7 @@
   * [合成/聚合复用原则](docs/multiplexing.md)
 * 创建者模式 5
   * [额外-创建型-简单工厂](docs/simple_factory.md)
-  * [工厂方法模式]
+  * [工厂方法模式](docs/factory_method.md)
   * [抽象工程模式]
   * [单例模式]
   * 建造者模式
@@ -52,3 +52,4 @@
 
 缺点：
 类的个数成对增加
+
