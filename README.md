@@ -15,6 +15,7 @@
   * [工厂方法模式](docs/factory_method.md)
   * [抽象工程模式](docs/abs_factory.md)
   * [建造者模式](docs/build.md)
+  * [建造者模式-改进](docs/build1.md)
   * [单例模式]
   * 原型模式
 
